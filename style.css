@@ -1,0 +1,289 @@
+body{
+	background:#d4f5d4;
+}
+
+.app{
+	position: relative;
+    overflow: hidden;
+    top: 46px;
+    height: calc(100% - 38px);
+    margin: auto;
+    padding: 0;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, .06), 0 2px 5px 0 rgba(0, 0, 0, .2);
+}
+
+.app-one{
+	background-color: #f7f7f7;
+    height: 100%;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, .06), 0 2px 5px 0 rgba(0, 0, 0, .2);
+}
+.heading{
+	padding: 10px 20px 10px 20px;
+	
+
+}
+.heading-avatar{
+	padding:0;
+	width: 50%;
+
+}
+.heading-cmt{
+	width: 20%;
+	padding: 0;
+	margin: auto;
+}
+.heading-dots{
+	width: 20%;
+	margin: auto;
+}
+.heading-avatar img{
+	width: 50px;
+	height: 50px;
+	margin:auto;
+}
+.heading-cmt i{
+	cursor: pointer;
+	color: #93918f;
+	font-size: 30px;
+
+}
+.heading-dots i{
+	color: #93918f;
+	font-size: 30px;
+	cursor: pointer;
+}
+
+.search{
+	padding: 10px 20px 10px 20px;
+}
+.search-one{
+	padding: 0;
+}
+.stylish-input-group .input-group-addon{
+    background: white !important; 
+}
+.stylish-input-group .form-control{
+	border-right:0; 
+	box-shadow:0 0 0; 
+	border-color:#ccc;
+}
+.stylish-input-group button{
+    border:0;
+    background:transparent;
+}
+.contact{
+	cursor: pointer;
+	width: 100%;
+	margin: auto;
+	padding: 10px 20px 10px 20px;
+	background-color: #fff;
+	border-bottom: 1px solid #eee;
+}
+.contact:hover{
+	background:#dbd8d6;
+}
+.conatact-img{
+	width: 35%;
+	margin: auto;
+}
+.conatact-img img{
+	width: 50px;
+	height: 50px;
+	margin: auto;
+}
+.contact-name{
+	width: 40%;
+	margin:auto;
+}
+.contact-name h4{
+	font-size: 18px;
+	font-weight: 400;
+	margin: auto;
+}
+.contact-time{
+	width: 25%;
+	margin:auto;
+}
+.contact-time p{
+	text-align: right;
+	margin:auto;
+}
+
+.sidebar{
+	width: 100%;
+	height: 390px;
+	overflow-y: auto;
+	margin:0;
+}
+.side{
+	padding:0;
+	border-right: 1px solid #eee;
+}
+
+.main-conversation{
+	padding: 10px 20px 10px 20px;
+
+}
+
+.main-conversation i{
+	cursor: pointer;
+	font-size: 30px;
+}
+.convo-1{
+	width: 20%;
+	margin:auto;
+}
+.convo-2{
+	width: 60%;
+	margin: auto;
+}
+.convo-3{
+	width: 20%;
+	margin: auto;
+}
+.convo-1 img{
+	width: 50px;
+	height: 50px;
+	margin: auto;
+}
+
+.convo-2{
+	margin: auto;
+}
+.convo-2 h4{
+	font-size: 25px;
+}
+.convo-3 i{
+	color: #93918f;
+	cursor: pointer;
+}
+.conversation{
+	padding: 0;
+}
+.sub-conversation{
+	background:url(images/bg-2.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 10px 20px 10px 20px;
+	height: 391px;
+	overflow-y: auto;
+}
+
+.sub-convo-1 h5{
+	text-align: center;
+}
+.sub-convo-2{
+	border: 1px solid #fff;
+    border-radius: 10px 10px 10px 0px;
+    color: black;
+    background: #fff;
+    padding: 5px;
+    width: 139px;
+
+}
+
+.sub-convo-2 h5{
+	font-size: 15px;
+	font-weight: 400;
+	margin: auto;
+}
+.sub-convo-2 p{
+	margin:auto;
+	font-size: 12px;
+	color: #9a9a9a;
+}
+
+.sub-convo-3 {
+	padding: 5px;
+	width: 170px;
+    border: 1px solid #c1f5c1fc;
+    border-radius: 10px 10px 0px 10px;
+    background: #c1f5c1fc;
+}
+
+.sub-convo-4{
+	margin-top: 67px;
+    border: 1px solid #fff;
+    width: 150px;
+    border-radius: 10px 10px 10px 0;
+    padding: 5px;
+    background: #fff;
+}
+
+.sub-img{
+	padding: 0;
+}
+
+.sub-img img{
+	width: 150px;
+	height: 150px;
+	margin:auto;
+}
+.sub-img h5{
+	font-size: 15px;
+	margin: auto;
+	font-weight: 400;
+	margin-top: 10px;
+}
+.sub-img p{
+	margin: auto;
+	font-size: 12px;
+	color: #9a9a9a;
+}
+.sub-convo-3 h5{
+	font-size: 15px;
+	font-weight: 400;
+	margin: auto;
+}
+.sub-convo-3 p{
+	margin:auto;
+	font-size: 12px;
+	color: #9a9a9a;
+}
+
+.message{
+	padding: 10px 20px 10px 20px;
+}
+.message-1{
+
+	width: 8%;
+	margin: auto;
+}
+.message-2{
+	width: 60%;
+	margin:auto;
+}
+.message-3{
+	
+	width: 8%;
+	margin: auto;
+}
+.message-4{
+	
+	width: 8%;
+	margin:auto;
+}
+.message-1 i{
+	cursor: pointer;
+	color: #93918f;
+	padding: 0px;
+	font-size: 30px;
+}
+.message-2 {
+	padding: 0px;
+}
+.message-3 i{
+	cursor: pointer;
+	color: #93918f;
+	font-size: 30px;
+	padding: 0;
+}
+.message-4 i{
+	cursor: pointer;
+	color: #93918f;
+	font-size: 30px;
+	padding:0;
+}
